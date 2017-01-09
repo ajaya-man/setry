@@ -9,6 +9,7 @@
 #include <QDebug>
 #include<QMessageBox>
 #include <QSqlQuery>
+#include <QString>
 
 namespace Ui {
 class Widget;
@@ -20,10 +21,17 @@ class Widget : public QWidget
 
 public:
     explicit Widget(QWidget *parent = 0);
+    QString Role;
+     QString Username, Password;
     ~Widget();
 
 private slots:
     void on_AdminButton_clicked();
+    bool checkdb();
+
+    void on_SuperButton_clicked();
+
+    void on_StaffButton_clicked();
 
 private:
     Ui::Widget *ui;

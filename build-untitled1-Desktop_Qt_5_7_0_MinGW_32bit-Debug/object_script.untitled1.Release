@@ -1,0 +1,13 @@
+INPUT(
+./release\main.o
+./release\widget.o
+./release\newhome.o
+./release\newhome2.o
+./release\newhome1.o
+./release\qrc_sanj.o
+./release\qrc_sanj2.o
+./release\moc_widget.o
+./release\moc_newhome.o
+./release\moc_newhome2.o
+./release\moc_newhome1.o
+);

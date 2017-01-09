@@ -1,0 +1,13 @@
+INPUT(
+./debug\main.o
+./debug\widget.o
+./debug\newhome.o
+./debug\newhome2.o
+./debug\newhome1.o
+./debug\qrc_sanj.o
+./debug\qrc_sanj2.o
+./debug\moc_widget.o
+./debug\moc_newhome.o
+./debug\moc_newhome2.o
+./debug\moc_newhome1.o
+);

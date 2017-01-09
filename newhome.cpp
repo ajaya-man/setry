@@ -6,6 +6,7 @@ newhome::newhome(QWidget *parent) :
     ui(new Ui::newhome)
 {
     ui->setupUi(this);
+    this->showMaximized();
 }
 
 newhome::~newhome()
